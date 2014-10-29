@@ -7,7 +7,7 @@
     <script type="text/javascript" charset="utf-8" src="phonegap.0.9.5.js"></script>
     <script type="text/javascript" charset="utf-8">
    
-    var myMedia = null;
+    var myMedia = new Media("/android_asset/www/turkey.mp3");
 	var playing = false;
 	
     function playAudio() {
@@ -75,7 +75,7 @@
    <p id="audio_position">0.000 sec</p>
    <p>
 	   	<select id="playlist" onchange="updateMedia()">
-	        <option checked value="/android_asset/www/test.mp3">Asset</option>
+	        <option checked value="/android_asset/www/turkey.mp3">Asset</option>
 	        <option value="test.mp3">SD Card</option>
 	        <option value="http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3">Internet</option>
 	   </select>
